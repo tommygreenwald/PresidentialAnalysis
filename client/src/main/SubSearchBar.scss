@@ -1,0 +1,53 @@
+.SubSearchField {
+  padding: .6em 1.2em;
+  width: 25em;
+  text-align: center;
+  border: 1px solid #b7b7b7;
+  -webkit-border-radius: 3em;
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; 
+  font-size: 22px; 
+  color: rgb(0, 74, 104);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  text-shadow: 1.5px 1.5px 0 rgba(0,0,0,0.2);
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.PaddedSearchDiv {
+  padding-top: 1vh;
+  display: flex;
+}
+
+.TextBoxSub {
+  width: 100%;
+}
+
+.ButtonClass {
+  margin-left: 10px;
+  flex-grow: 1;
+  background-color:white;
+  -webkit-border-radius:28px;
+  display:inline-block;
+  cursor:pointer;
+  border: rgb(0, 74, 104);
+  border-style: solid;
+  border-width: 1px;
+  color:rgb(0, 74, 104);
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; 
+  font-size:17px;
+  padding: .75em 1.5em;
+  text-decoration:none;
+  text-shadow:0px 1px 0px rgb(0, 74, 104);
+}
+
+.ButtonClass:hover {
+  background-color:whitesmoke;
+}
+.ButtonClass:active {
+  position:relative;
+  top:.3px;
+}

@@ -1,0 +1,5 @@
+.vscode
+**__pycache__
+flask/
+config.json
+node_modules/
