@@ -1,5 +1,10 @@
+# Editor
 .vscode
-**__pycache__
-flask/
-config.json
+
+# Javascript Front End
 node_modules/
+config.json
+
+# Python Back End
+**__pycache__
+venv/
