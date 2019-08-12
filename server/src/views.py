@@ -10,5 +10,4 @@ def getOneSRToneAnalysis():
     keyword = request.headers['keyword']
     results = service.getOneSRToneAnalysis(subreddit, keyword)
     resp = make_response(jsonify(results))
-    resp.headers['Access-Control-Allow-Origin'] = '*'
     return resp

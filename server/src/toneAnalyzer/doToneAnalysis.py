@@ -20,5 +20,8 @@ def analyzeToneOneSR(comments):
 
   resp = session.post(config['toneUrl'], json=comments, params=params, headers=headers)
   resp = resp.json()
-  tones = resp['document_tone']['tones']
+  tones = []
+  if ('document_tone' in resp):
+    tones = resp['document_tone']['tones']
+  
   return tones

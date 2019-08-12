@@ -11,8 +11,7 @@ def getOneSRToneAnalysis(subreddit, keyword):
   for comment in comments:
     commentString['text'] += comment['text']
 
-  # tones = toneAnalyzer.analyzeToneOneSR(commentString)
-  tones = { 'happy': '0.75' }
+  tones = toneAnalyzer.analyzeToneOneSR(commentString)
 
   topComments = comments[:10]
   topCommentsMap = map(lambda x: x['text'], topComments)
