@@ -30,6 +30,8 @@ const EMPTY_MSG = {
   ]
 }; 
 
+// TODO: @kenny why tone_id?
+
 export default class MainPage extends Component {
   constructor (props) {
     super(props);
@@ -88,24 +90,16 @@ export default class MainPage extends Component {
           {`Presidential Analysis`}
         </div>
         <div className="TopicSearchBar">
-          <TopicSearchBar
-            selectedText="Search a Candidate or Topic"
-          >
-          </TopicSearchBar>
+          <TopicSearchBar />
         </div>
         <div>
-          <SubSearchBar
-            selectedText="Search a Subreddit"
-            onClick={this.onClick}
-          >
-          </SubSearchBar>
+          <SubSearchBar onClick={this.onClick} />
         </div>
         <div className="Results">  
           <Results
             data={this.state.data}
             comments={this.state.comments}
-          >
-          </Results>
+          />
         </div>
         <div className="Copyright">
           	&#169; Thomas Greenwald and Kanming Xu

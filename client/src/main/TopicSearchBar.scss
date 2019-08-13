@@ -4,7 +4,7 @@
   text-align: center;
   border: 1px solid #b7b7b7;
   -webkit-border-radius: 3em;
-  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; 
+  /* font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; */
   font-size: 24px; 
   color: rgb(0, 74, 104);
   -o-text-overflow: clip;
@@ -15,4 +15,8 @@
   -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
   -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
   transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.TopicSearchField .bx--form-item .bx--form-requirement {
+  color: white;
 }
